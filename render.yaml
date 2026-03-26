@@ -1,0 +1,36 @@
+services:
+  - type: web
+    plan: free
+    name: AU-Auto-Rename-Bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    repo: https://github.com/MD-Developer-yt/AU-Auto-Rename-Bot.git
+    branch: main
+    autoDeploy: false
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: FORCE_SUB
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: DB_URL
+        sync: false
+      - key: START_PIC
+        sync: false
+      - key: ADMIN
+        sync: false
+      - key: WEBHOOK
+        sync: false
+
+#Don't Remove Credits
+#Ask Doubt @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU 
+#Owner @Mr_Mohammed_29
