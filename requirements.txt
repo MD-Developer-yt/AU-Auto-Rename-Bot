@@ -1,0 +1,20 @@
+pyrogram==2.0.80
+pyromod
+TgCrypto
+motor
+dnspython
+hachoir
+Pillow
+aiohttp
+pytz
+humanize
+ffmpeg-python
+python-telegram-bot==13.15
+pymongo
+requests
+
+
+#Don't Remove Credits
+#Ask Doubt @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU 
+#Owner @Mr_Mohammed_29
